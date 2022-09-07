@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+}
+.container{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+label{
+    margin-top: 1.5rem;
+}
