@@ -4,45 +4,87 @@
 }
 h1{
     text-align: center;
-    margin-top: 4rem;
+    margin-top: 3rem;
+    font-weight: bold;
 }
 p{
     text-align: center;
-    margin-top: 1.5rem;
+    margin-top: 2rem;
     margin-bottom: 1.5rem;
-    font-size: large;
+    font-size: larger;
 }
 body{
-    background-color: #f87171;
+    background-color: #15803d;
     font-family: 'Qwitcher Grypen', cursive;
+    
 }
 
 .container{
     width: 50%;
     margin: auto;
+    margin-top: 100px;
     display: flex;
     flex-direction: column;
 }
 label{
     margin:auto;
+    font-size: 25px;
 }
 #check-button{
-    width: 180px;
+    width: 100px;
     height: 40px;
+    font-size: medium;
     margin: auto;
     font-size: medium;
     border: transparent;
+    font-family: 'Qwitcher Grypen', cursive;
+    border: 1px solid black;
+    border-radius: 1px;
+    color: #15803d;
 }
 #lucky-number{
     width: 240px;
     height: 30px;
     margin: auto;
     margin-bottom: 1.5rem;
+    border:1px solid black;
 }
 #date-of-birth{
     width: 240px;
     height: 30px;
     margin: auto;
     margin-bottom: 1.5rem;
+    border:1px solid black;
     
+}
+#out-put{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.footer{
+    text-align: center;
+    display: inline;
+    margin-top: 130px;
+    
+}
+.footer ul{
+    display: flex;
+    margin-left: 220px;
+    list-style: none;
+    
+}
+.footer ul a{
+    text-align: center;
+    text-decoration: none;
+    margin-left: 4rem;
+    color: #ffff;
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.connect{
+    font-size: 2rem;
+
 }
