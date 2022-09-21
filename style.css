@@ -14,7 +14,8 @@ p{
     font-size: larger;
 }
 body{
-    background-color: #15803d;
+    background: rgb(238,174,202);
+background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(151,232,232,1) 0%, rgba(148,187,233,1) 100%);
     font-family: 'Qwitcher Grypen', cursive;
     
 }
@@ -71,17 +72,17 @@ label{
 }
 .footer ul{
     display: flex;
-    margin-left: 220px;
+    margin-left: 200px;
     list-style: none;
     
 }
 .footer ul a{
     text-align: center;
     text-decoration: none;
-    margin-left: 4rem;
-    color: #ffff;
+    margin-left: 3rem;
+    color:black;
     font-size: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     margin-top: 10px;
 }
 .connect{
